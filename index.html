@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Chip - Bio Chip</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- WebGL - Fundo 3D -->
+    <div id="background"></div>
+
+    <!-- Header -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#benefits">Benefícios</a></li>
+                <li><a href="#features">Funcionalidades</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Health Chip</h1>
+            <h2>Inovação no Monitoramento de Saúde</h2>
+            <p>Experimente o futuro da medicina com o Bio Chip.</p>
+            <button onclick="scrollToSection('benefits')">Explore Agora</button>
+        </div>
+    </section>
+
+    <!-- Benefícios -->
+    <section id="benefits" class="section">
+        <h2>Benefícios do Bio Chip</h2>
+        <div class="benefits-list">
+            <div class="benefit">
+                <h3>Monitoramento 24/7</h3>
+                <p>Monitoramento constante dos seus sinais vitais, onde quer que você esteja.</p>
+            </div>
+            <div class="benefit">
+                <h3>Prevenção Avançada</h3>
+                <p>Detecte alterações no seu corpo antes que se tornem riscos sérios.</p>
+            </div>
+            <div class="benefit">
+                <h3>Conexão com Médicos</h3>
+                <p>Conecte-se com profissionais em tempo real, garantindo sua segurança.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Funcionalidades -->
+    <section id="features" class="section">
+        <h2>Funcionalidades do Bio Chip</h2>
+        <div class="features-list">
+            <div class="feature">
+                <h3>Monitoramento de Glicose</h3>
+                <p>Acompanhe seu nível de glicose em tempo real com alertas automáticos.</p>
+            </div>
+            <div class="feature">
+                <h3>Batimentos Cardíacos</h3>
+                <p>Controle sua frequência cardíaca e receba alertas sobre irregularidades.</p>
+            </div>
+            <div class="feature">
+                <h3>Temperatura Corporal</h3>
+                <p>Tenha acesso instantâneo à sua temperatura corporal, garantindo seu bem-estar.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contact" class="section">
+        <h2>Entre em Contato</h2>
+        <form id="contact-form">
+            <input type="text" id="name" placeholder="Seu Nome" required>
+            <input type="email" id="email" placeholder="Seu E-mail" required>
+            <textarea id="message" placeholder="Sua Mensagem" required></textarea>
+            <button type="submit">Enviar Mensagem</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Health Chip | Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
